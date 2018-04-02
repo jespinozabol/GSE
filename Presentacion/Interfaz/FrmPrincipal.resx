@@ -1,0 +1,803 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="MenuPrincipal.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="MenuPrincipal.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="MenuPrincipal.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="MenuItemSalir.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 18</value>
+  </data>
+  <data name="MenuItemSalir.Text" xml:space="preserve">
+    <value>Salir</value>
+  </data>
+  <data name="MantCatálogoDeMateriales.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 22</value>
+  </data>
+  <data name="MantCatálogoDeMateriales.Text" xml:space="preserve">
+    <value>Catálogo de Materiales</value>
+  </data>
+  <data name="MantAnular.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 22</value>
+  </data>
+  <data name="MantAnular.Text" xml:space="preserve">
+    <value>Anular Documento</value>
+  </data>
+  <data name="ListaFacturasToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 22</value>
+  </data>
+  <data name="ListaFacturasToolStripMenuItem.Text" xml:space="preserve">
+    <value>Facturas Emitidas</value>
+  </data>
+  <data name="ClientesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 22</value>
+  </data>
+  <data name="ClientesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Clientes Duplicados</value>
+  </data>
+  <data name="ListadosFacturadosToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 22</value>
+  </data>
+  <data name="ListadosFacturadosToolStripMenuItem.Text" xml:space="preserve">
+    <value>Listados Facturados</value>
+  </data>
+  <data name="MantReferenciaDeVentas.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 22</value>
+  </data>
+  <data name="MantReferenciaDeVentas.Text" xml:space="preserve">
+    <value>Referencia de Ventas</value>
+  </data>
+  <data name="EmpleadosYOtrosToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 22</value>
+  </data>
+  <data name="EmpleadosYOtrosToolStripMenuItem.Text" xml:space="preserve">
+    <value>Empleados y Otros</value>
+  </data>
+  <data name="MenuItemMantenimiento.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 18</value>
+  </data>
+  <data name="MenuItemMantenimiento.Text" xml:space="preserve">
+    <value>Mantenimiento</value>
+  </data>
+  <data name="FacturarToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 18</value>
+  </data>
+  <data name="FacturarToolStripMenuItem.Text" xml:space="preserve">
+    <value>Facturar</value>
+  </data>
+  <data name="ListadoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 18</value>
+  </data>
+  <data name="ListadoToolStripMenuItem.Text" xml:space="preserve">
+    <value>Listado</value>
+  </data>
+  <data name="ProformaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 18</value>
+  </data>
+  <data name="ProformaToolStripMenuItem.Text" xml:space="preserve">
+    <value>Proforma</value>
+  </data>
+  <data name="CreditosFacturasPorCliente.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="CreditosFacturasPorCliente.Text" xml:space="preserve">
+    <value>Facturas Por Cliente</value>
+  </data>
+  <data name="CreditosDatosCliente.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="CreditosDatosCliente.Text" xml:space="preserve">
+    <value>Datos Cliente</value>
+  </data>
+  <data name="ListaClientesCréditoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="ListaClientesCréditoToolStripMenuItem.Text" xml:space="preserve">
+    <value>Análisis de Créditos</value>
+  </data>
+  <data name="ListaComprobantesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="ListaComprobantesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Lista Comprobantes</value>
+  </data>
+  <data name="ValeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="ValeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Vales</value>
+  </data>
+  <data name="MenuItemCredito.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 18</value>
+  </data>
+  <data name="MenuItemCredito.Text" xml:space="preserve">
+    <value>Créditos</value>
+  </data>
+  <data name="FacturasPorProveedorToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 22</value>
+  </data>
+  <data name="FacturasPorProveedorToolStripMenuItem.Text" xml:space="preserve">
+    <value>Cancelación de Facturas</value>
+  </data>
+  <data name="IngresarFacturaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 22</value>
+  </data>
+  <data name="IngresarFacturaToolStripMenuItem.Text" xml:space="preserve">
+    <value>Agregar/Editar Factura</value>
+  </data>
+  <data name="DatosProveedorToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 22</value>
+  </data>
+  <data name="DatosProveedorToolStripMenuItem.Text" xml:space="preserve">
+    <value>Datos Proveedor</value>
+  </data>
+  <data name="ListadoDeFacturasToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 22</value>
+  </data>
+  <data name="ListadoDeFacturasToolStripMenuItem.Text" xml:space="preserve">
+    <value>Historial de compras</value>
+  </data>
+  <data name="HacerPedidosToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 22</value>
+  </data>
+  <data name="HacerPedidosToolStripMenuItem.Text" xml:space="preserve">
+    <value>Hacer pedidos</value>
+  </data>
+  <data name="ListaRecibosToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 22</value>
+  </data>
+  <data name="ListaRecibosToolStripMenuItem.Text" xml:space="preserve">
+    <value>Lista Recibos</value>
+  </data>
+  <data name="DevolucionesYCambiosToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 22</value>
+  </data>
+  <data name="DevolucionesYCambiosToolStripMenuItem.Text" xml:space="preserve">
+    <value>Devoluciones y Cambios</value>
+  </data>
+  <data name="ProveedoresToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 18</value>
+  </data>
+  <data name="ProveedoresToolStripMenuItem.Text" xml:space="preserve">
+    <value>Proveedores</value>
+  </data>
+  <data name="CajaMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 22</value>
+  </data>
+  <data name="CajaMenuItem.Text" xml:space="preserve">
+    <value>Caja</value>
+  </data>
+  <data name="CajaMenuItem.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ValeToolStripMenuItemAdm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 22</value>
+  </data>
+  <data name="ValeToolStripMenuItemAdm.Text" xml:space="preserve">
+    <value>Vales</value>
+  </data>
+  <data name="CalcularImpuestoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 22</value>
+  </data>
+  <data name="CalcularImpuestoToolStripMenuItem.Text" xml:space="preserve">
+    <value>Cálculo de Ventas</value>
+  </data>
+  <data name="CalcularImpuestoToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="AdministrarConsecutivosToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 22</value>
+  </data>
+  <data name="AdministrarConsecutivosToolStripMenuItem.Text" xml:space="preserve">
+    <value>Administrar Consecutivos</value>
+  </data>
+  <data name="AdministrarImpresorasToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 22</value>
+  </data>
+  <data name="AdministrarImpresorasToolStripMenuItem.Text" xml:space="preserve">
+    <value>Administrar Impresoras</value>
+  </data>
+  <data name="AdministrarImpresorasToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="AdministrarTiposCréditoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 22</value>
+  </data>
+  <data name="AdministrarTiposCréditoToolStripMenuItem.Text" xml:space="preserve">
+    <value>Administrar Tipos Crédito</value>
+  </data>
+  <data name="AdministrarTiposCréditoToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="TotalVentasPorClienteToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 22</value>
+  </data>
+  <data name="TotalVentasPorClienteToolStripMenuItem.Text" xml:space="preserve">
+    <value>Total Ventas por Cliente</value>
+  </data>
+  <data name="TotalVentasPorClienteToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="TotalComprasPorProveedorToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 22</value>
+  </data>
+  <data name="TotalComprasPorProveedorToolStripMenuItem.Text" xml:space="preserve">
+    <value>Total Compras por Proveedor</value>
+  </data>
+  <data name="TotalComprasPorProveedorToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="AdminImpuestoVenta.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 22</value>
+  </data>
+  <data name="AdminImpuestoVenta.Text" xml:space="preserve">
+    <value>Impuesto Venta</value>
+  </data>
+  <data name="AdminImpuestoVenta.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="MonedaMinimaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 22</value>
+  </data>
+  <data name="MonedaMinimaToolStripMenuItem.Text" xml:space="preserve">
+    <value>Moneda_Minima</value>
+  </data>
+  <data name="MonedaMinimaToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="InventarioToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 22</value>
+  </data>
+  <data name="InventarioToolStripMenuItem.Text" xml:space="preserve">
+    <value>Inventario</value>
+  </data>
+  <data name="InventarioToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="OtrosToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 22</value>
+  </data>
+  <data name="OtrosToolStripMenuItem.Text" xml:space="preserve">
+    <value>Otros</value>
+  </data>
+  <data name="MenuItemAdministrativos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 18</value>
+  </data>
+  <data name="MenuItemAdministrativos.Text" xml:space="preserve">
+    <value>Administrativos</value>
+  </data>
+  <data name="MenuPrincipal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="MenuPrincipal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>680, 22</value>
+  </data>
+  <data name="MenuPrincipal.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="MenuPrincipal.Text" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="&gt;&gt;MenuPrincipal.Name" xml:space="preserve">
+    <value>MenuPrincipal</value>
+  </data>
+  <data name="&gt;&gt;MenuPrincipal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuPrincipal.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MenuPrincipal.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblCerrarSesion.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCerrarSesion.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="lblCerrarSesion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>548, 32</value>
+  </data>
+  <data name="lblCerrarSesion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 15</value>
+  </data>
+  <data name="lblCerrarSesion.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblCerrarSesion.Text" xml:space="preserve">
+    <value>Cerrar Sesión</value>
+  </data>
+  <data name="lblCerrarSesion.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lblCerrarSesion.Name" xml:space="preserve">
+    <value>lblCerrarSesion</value>
+  </data>
+  <data name="&gt;&gt;lblCerrarSesion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCerrarSesion.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblCerrarSesion.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="Timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>147, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AccessibleName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>680, 479</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAQAICAQAAEABADoAgAARgAAABAQEAABAAQAKAEAAC4DAAAgIAAAAQAIAKgIAABWBAAAEBAAAAEA
+        CABoBQAA/gwAACgAAAAgAAAAQAAAAAEABAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAA
+        AAAAgIAAgAAAAIAAgACAgAAAwMDAAICAgAAAAP8AAP8AAAD//wD/AAAA/wD/AP//AAD///8AIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiAAIiIiIiIiIiIiIiIiIiIZeQIiIiIiIiIiIiIiIiIhl5ECIi
+        IiIiIiIiIiIiIiGXkRAiIiIiIiIiIiIiIiIZeRECIiIiIiIiIiIiIiIhl5EQIiIiIiIiIiIiIiIiGXkR
+        AiIiIiIiIiIiIiIiIZeRECIiIiIiIiIiIiIiIoh5EQIiIiIiIiIiIiAAAAAI9xAiIiIiIiIiIiAGZmZg
+        AIgCIiIiIiIiIiKH5+fn52AAIiIiIiIiIiIofn5+fn52AiIiIiIAAAAACPf39/f35wIiIiIih3d3d49/
+        f39/fndgIiIiIof///+H9/f39/fnYCIiIiKH////iIiIiIiOd2AiIiIih/iIiIiIiIiIh+dgIiIiIof/
+        //+Pf39/f353YCIiIiKH////+IiIiIiH5wIiIiIih/iIiIiIiIiIjnYCIiIiIof/////h/f39/dgIiIi
+        IiKH//////iIiIiAAiIiIiIih/iIiIiIiIiIBwIiIiIiIof///////////cCIiIiIiKH///////////3
+        AiIiIiIiiIiIiIiIiIiIiAIiIiIiIoREREREREREREQCIiIiIiKERERERERE9PT0AiIiIiIihERERERE
+        RERERAIiIiIiIoiIiIiIiIiIiIiCIiIiIiL/////////8f///+D////A////gP///wH///4D///8B///
+        +A////Af//gAP//gAH//wAD//4AB/wAAAf8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAf8AAAH/AAAD/wAA
+        B/8AAAf/AAAH/wAAB/8AAAf/AAAH/wAAB/8AAAf/AAAH/ygAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAgIAAgAAAAIAAgACAgAAAwMDAAICAgAAAAP8AAP8AAAD/
+        /wD/AAAA/wD/AP//AAD///8AIiIiIiIiIiIiIiIiIiIhAiIiIiIiIheQIiIiIiIheRAiIiIiIheRAiIi
+        IiIheRAiAAAAgA+RAiKHd3h+dwAiIof/f+fnACIih/+O/n4AIiKH/4iI5wAiIoeIiIhwcCIih//3iIdw
+        IiKH/////3AiIoREREREQCIiiIiIiIiIIiL//yIi//kiIv/wIZf/4CIi/8EiIv+DIiIAB4h5AA8iIgAP
+        IiIADyAAAA8I9wAPIiIADyIiAA8GZgAPAIgADyIiKAAAACAAAABAAAAAAQAIAAAAAAAABAAAAAAAAAAA
+        AAAAAAAAAAAAAGlceQCaiKsAkYGTAAAAAABrZGoAu7i6AImEhgCBfH4AfmtwAItydwCAensAqoSJAMW2
+        uACqg4cAQTk6AFZMTQDczc4ApoSFAKiNjQDCp6cAnoKBANK5uAC0jowArZiXAGleXQCHe3oAvKimAJt7
+        dwCIbWkAb2NhAKehoABnV1QAWkA6AJ54bwB3b20Ah2VcALy1swBIKiEAo35yANKqnQC7opoAq4h6AHRe
+        VQByXVUA5L+wAL6djwDy4NgAenFtAIB3cwBQIwwAlUIYALORgAB2YFUAjzwQAJtRKgDMnIEA5rGUANin
+        jQB6YlUAhnNnANO7rQDHp5AA28SxALxbAADPrI4A1bieALtbAAC7XQAAuVwAAMWLVADTrYcA58+4AMm1
+        ogBmZWQAv2MAAMBoCQCwXwkA5oslANSAIgDShjIAemlXAMx1EQDlhxoA5osiAOKJIQDkjCMA44slAOaN
+        JwDojykA5o4pAOONKQDpkSwA4o4sAOWPLQDkkTEA4pY8APSmTQDCiEAAvIdFANWYUQDbsoIA89GqAObJ
+        pwCdkIEAvIdDALuGQwC6h0UAu4hGANzDnwDbxaQA8NexAMm3mwDdyaUA/uOuAO7asgD27+EA/Oe4ANvX
+        zgD/7bwA49WtAOLYuwD/9NQAzMSsAPrvxgDYz6wAzMSmAP7yvQD/9MMA2NGuANPNqwDZ1bEAzsurAP/+
+        8wD++sUA6ea9AP/+1wDFxKkA//7KAO/wwgD//88A+/vNANjYtwD//94A///nANXVzQCWlpQA+/zSAPf4
+        0ADY2rsA5+nJANHUswDJy7MA3uK+AN7hwQDZ3MIA1tjGANLWuwDLz7kA5urUANncygDP08MAy8/DANnc
+        1ADT1tMAwsrGANrd3ADm8u8A6vj3AOf19ADn9PMA5fLxAOr7+wDr+PgA6fb2ANXZ2QDm/f8Awc3OAOr9
+        /wDV6ewA7v3/AOTy9ADd+v8Asb7AAM3Z2wDW4eMAztzfAOL2+wDe8vcA6fv/ANbm6gDV5ekA4fH1AL/M
+        zwDG0tUAw8/SAL3JzADG3uUAi5mdAKu6vgDV5+wA0uHlAM7d4QDl9PgAsLu+AMLN0AC/ys0AzeTrANrx
+        +ADZ5uoA5vP3AOTx9QDh7vIAvsjLALzGyQDd9PwA3fP7AN/0+wDk9/4AydfcANrp7gDL2d4A3uzxAM7a
+        3gDV4eUAtcrSAOH2/gDH1NkAxtPYAOD0/QDO2+EAqLG1ANLe5ADNz9AAWMP/AFCu5wBGtv8AiqvBAKrK
+        4ABJsP4ATKLiAJPM9wDGzdIAWYu0AGBmawDe4uYAOYjmADiC3wBpepcAvsHHAE9stwBSbLMAX3WvAIqK
+        kQB3d3oA////AAAAAAD///////////////////////////////////////////////0ECR0H////////
+        //////////////////////////8e9/sBCxgH/////////////////////////////////+zv9foBCxgH
+        ////////////////////////////////8Onu9voBCxgH////////////////////////////////8Onu
+        9voBDRgH////////////////////////////////8Onu9voBDR0H////////////////////////////
+        ////8Onu9voBESL/////////////////////////////////8Onr9fkBCAf//wcHCgoG////////////
+        /////5EwMBkH8unr9fdJDw8cJiktKBsPDg8iMDAwLzD/////NjU1NTUy9+rskQYRN2V/h46OeUchJTE1
+        MjIyH/////83PDw8PEgk7aQkFjh2i4uHjo6PhHMpIDtIPkUr/////021z9bX1ru/yRo4dImFi4ePj4T+
+        /i4c8+CvPSv/////Tdbbx8fH27L4J2yNfICUmp+ioqWuc0gfxc89K/////9N4bm2y8u2xh5viEhviJed
+        oaHoo5CVeBz9zj0r/////03W2729vbLlFW6FcXF/i46PhISEj46SKQTEQCv/////Tdbbvb6+x/E8coNv
+        b32XnZ2hoJubmpMtBMRAKv////9N4bm2y8u25hp6iG99fYOWnJycmpmYhjP9zkAq/////03Y3d3T3b/d
+        FW6Me3RxfoWMkpKSjIt0JvzPQCr/////TeTQybm5yckMbZSXekhvfYODg4GCimYc5q9GNP////9N4cm2
+        tra2tssoeq6ukG1tcGxtd4ZyMwbcsUY0/////03Y0rOzs7OzsxAshP7+knZxcX6JfjgUwsrZRjT/////
+        TdnfzdTNw83A1RcodZ6elYaGhnI5G+a50LxGNP////9N2d/MsLCwzLDCwgUXLUFwZmZBLRfVyLnQsWQ0
+        /////03h09K0tNLStLTRtPQMFxIoEwzo27S009O8ZDr/////Tdm4zdTU1NTU1M3NsMzCwcHBwbe53t63
+        0LFkOv////9N2dDi4+Pj4+Pj4+Pi4tra3Nze59/fyMjbsWQ6/////026qqysrKysrKysp6enp62tra2o
+        qKmpqKarZDr/////YWtrampqampqampqamtqa2traWliamloYUVPUP////9LP0JCRERCQkNDQ0JCQkJC
+        Q0RKT0tLTkwAI1FQ/////1FcXU1ZV1NZTVNXV1VTUlJSUlNgW1tgTwIpTmf//////19fXl5eXV5cWl5e
+        Xl5cWlpWVlRWVlZaWlhj/////////+D////Af///wD///8Af///gD///8Af///gH///8Awf/wAAAA8AA
+        AAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AA
+        AAPAAAADwAAAA8AAAAPAAAADwAAAA+AAAAcoAAAAEAAAACAAAAABAAgAAAAAAAABAAAAAAAAAAAAAAAA
+        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
+</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Principal</value>
+  </data>
+  <data name="&gt;&gt;MenuItemSalir.Name" xml:space="preserve">
+    <value>MenuItemSalir</value>
+  </data>
+  <data name="&gt;&gt;MenuItemSalir.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItemMantenimiento.Name" xml:space="preserve">
+    <value>MenuItemMantenimiento</value>
+  </data>
+  <data name="&gt;&gt;MenuItemMantenimiento.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MantCatálogoDeMateriales.Name" xml:space="preserve">
+    <value>MantCatálogoDeMateriales</value>
+  </data>
+  <data name="&gt;&gt;MantCatálogoDeMateriales.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MantAnular.Name" xml:space="preserve">
+    <value>MantAnular</value>
+  </data>
+  <data name="&gt;&gt;MantAnular.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ListaFacturasToolStripMenuItem.Name" xml:space="preserve">
+    <value>ListaFacturasToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;ListaFacturasToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ClientesToolStripMenuItem.Name" xml:space="preserve">
+    <value>ClientesToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;ClientesToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ListadosFacturadosToolStripMenuItem.Name" xml:space="preserve">
+    <value>ListadosFacturadosToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;ListadosFacturadosToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MantReferenciaDeVentas.Name" xml:space="preserve">
+    <value>MantReferenciaDeVentas</value>
+  </data>
+  <data name="&gt;&gt;MantReferenciaDeVentas.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EmpleadosYOtrosToolStripMenuItem.Name" xml:space="preserve">
+    <value>EmpleadosYOtrosToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;EmpleadosYOtrosToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FacturarToolStripMenuItem.Name" xml:space="preserve">
+    <value>FacturarToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;FacturarToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ListadoToolStripMenuItem.Name" xml:space="preserve">
+    <value>ListadoToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;ListadoToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProformaToolStripMenuItem.Name" xml:space="preserve">
+    <value>ProformaToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;ProformaToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItemCredito.Name" xml:space="preserve">
+    <value>MenuItemCredito</value>
+  </data>
+  <data name="&gt;&gt;MenuItemCredito.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreditosFacturasPorCliente.Name" xml:space="preserve">
+    <value>CreditosFacturasPorCliente</value>
+  </data>
+  <data name="&gt;&gt;CreditosFacturasPorCliente.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreditosDatosCliente.Name" xml:space="preserve">
+    <value>CreditosDatosCliente</value>
+  </data>
+  <data name="&gt;&gt;CreditosDatosCliente.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ValeToolStripMenuItem.Name" xml:space="preserve">
+    <value>ValeToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;ValeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ListaClientesCréditoToolStripMenuItem.Name" xml:space="preserve">
+    <value>ListaClientesCréditoToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;ListaClientesCréditoToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ListaComprobantesToolStripMenuItem.Name" xml:space="preserve">
+    <value>ListaComprobantesToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;ListaComprobantesToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProveedoresToolStripMenuItem.Name" xml:space="preserve">
+    <value>ProveedoresToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;ProveedoresToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FacturasPorProveedorToolStripMenuItem.Name" xml:space="preserve">
+    <value>FacturasPorProveedorToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;FacturasPorProveedorToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;IngresarFacturaToolStripMenuItem.Name" xml:space="preserve">
+    <value>IngresarFacturaToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;IngresarFacturaToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DatosProveedorToolStripMenuItem.Name" xml:space="preserve">
+    <value>DatosProveedorToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;DatosProveedorToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ListadoDeFacturasToolStripMenuItem.Name" xml:space="preserve">
+    <value>ListadoDeFacturasToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;ListadoDeFacturasToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HacerPedidosToolStripMenuItem.Name" xml:space="preserve">
+    <value>HacerPedidosToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;HacerPedidosToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ListaRecibosToolStripMenuItem.Name" xml:space="preserve">
+    <value>ListaRecibosToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;ListaRecibosToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DevolucionesYCambiosToolStripMenuItem.Name" xml:space="preserve">
+    <value>DevolucionesYCambiosToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;DevolucionesYCambiosToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItemAdministrativos.Name" xml:space="preserve">
+    <value>MenuItemAdministrativos</value>
+  </data>
+  <data name="&gt;&gt;MenuItemAdministrativos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CajaMenuItem.Name" xml:space="preserve">
+    <value>CajaMenuItem</value>
+  </data>
+  <data name="&gt;&gt;CajaMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ValeToolStripMenuItemAdm.Name" xml:space="preserve">
+    <value>ValeToolStripMenuItemAdm</value>
+  </data>
+  <data name="&gt;&gt;ValeToolStripMenuItemAdm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CalcularImpuestoToolStripMenuItem.Name" xml:space="preserve">
+    <value>CalcularImpuestoToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;CalcularImpuestoToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AdministrarConsecutivosToolStripMenuItem.Name" xml:space="preserve">
+    <value>AdministrarConsecutivosToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;AdministrarConsecutivosToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AdministrarImpresorasToolStripMenuItem.Name" xml:space="preserve">
+    <value>AdministrarImpresorasToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;AdministrarImpresorasToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AdministrarTiposCréditoToolStripMenuItem.Name" xml:space="preserve">
+    <value>AdministrarTiposCréditoToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;AdministrarTiposCréditoToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TotalVentasPorClienteToolStripMenuItem.Name" xml:space="preserve">
+    <value>TotalVentasPorClienteToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;TotalVentasPorClienteToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TotalComprasPorProveedorToolStripMenuItem.Name" xml:space="preserve">
+    <value>TotalComprasPorProveedorToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;TotalComprasPorProveedorToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AdminImpuestoVenta.Name" xml:space="preserve">
+    <value>AdminImpuestoVenta</value>
+  </data>
+  <data name="&gt;&gt;AdminImpuestoVenta.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MonedaMinimaToolStripMenuItem.Name" xml:space="preserve">
+    <value>MonedaMinimaToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;MonedaMinimaToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;InventarioToolStripMenuItem.Name" xml:space="preserve">
+    <value>InventarioToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;InventarioToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OtrosToolStripMenuItem.Name" xml:space="preserve">
+    <value>OtrosToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;OtrosToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Timer1.Name" xml:space="preserve">
+    <value>Timer1</value>
+  </data>
+  <data name="&gt;&gt;Timer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FrmPrincipal</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
